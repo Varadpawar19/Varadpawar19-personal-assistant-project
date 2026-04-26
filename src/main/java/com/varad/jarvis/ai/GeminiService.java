@@ -11,7 +11,7 @@ import java.util.Map;
 public class GeminiService {
 
     // IMPORTANT: Paste your actual key here!
-    private final String API_KEY = "AIzaSyCKVfgIA5o5PkCzdqFcFeHqMtTJFWWx52k";
+    private final String API_KEY = "";
     private final String BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 
     private final WebClient webClient = WebClient.create();
